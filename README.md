@@ -11,7 +11,7 @@ Support, you are working on Webservice/Web.
 3. MongoMultiTenancyIntercepto:r This class intercepts method invocation and checks for DAO/Reposirty Type.
    It will set the Tenant Schema Name for the current thread if Target object type is DAO/ORM/Repository.
 
-      MultiTenantMongoDbFactory.setDatabaseNameForCurrentThread(dbSchemaName);
+            MultiTenantMongoDbFactory.setDatabaseNameForCurrentThread(dbSchemaName);
 
 
 4. MultiTenantMongoDbFactory will internaly deal with the multitenancy.
