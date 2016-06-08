@@ -10,4 +10,4 @@ Support, you are working on Webservice/Web.
    
 3. MongoMultiTenancyInterceptor will get called for each ORM/DAO/Repository, setting the tenant schema name in current thread.
    MultiTenantMongoDbFactory.setDatabaseNameForCurrentThread(dbSchemaName);
-4. MultiTenantMongoDbFactory will internaly handly the multitenancy.
+4. MultiTenantMongoDbFactory will internaly deal with the multitenancy.
